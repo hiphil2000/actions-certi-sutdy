@@ -12,4 +12,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo ${{ github.job }}
+      - run: echo ${{inputs.tags}}
